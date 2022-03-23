@@ -13,9 +13,63 @@ body
     font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 500;
-font-size: 104px;
+font-size: 14px;
 line-height: 17px;
     overflow-x: hidden;
     scroll-behavior: smooth;
     color: blueviolet;
+}
+/* Хедер */
+.header
+{
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 100%;}
+.wrapper_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu_list
+{
+display: flex;
+text-decoration: none;
+list-style: none;
+}
+.header_nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.share_text
+{
+    display: flex;
+    align-items: center;
+}
+.menu_link
+{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+.language_select:hover
+{
+    color: black;
+}
+.language_select
+{
+    transition: 0.3s;
+    list-style: none;
+    text-decoration: none;
+    color: #CACACA;
+    padding-right: 20px;
 }
