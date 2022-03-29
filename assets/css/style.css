@@ -210,6 +210,12 @@ color: #161616;
     color: #000;
     border:  1px solid #000 ;
     cursor: pointer;
+    transition: 00.3s;
+}
+.border_button:hover
+{
+    background-color: #000;
+    color: white;
 }
 .mt40px
 {
@@ -229,7 +235,8 @@ color: #161616;
     margin-bottom: 35px;
     text-transform: uppercase;
     padding-bottom: 5px;
-    transition: 0.3s;
+    transition: 0.3s;   
+    border-bottom: 1px solid transparent;
 }
 .container_model
 {
@@ -397,7 +404,7 @@ font-size: 14px;
 line-height: 17px;
 /* identical to box height */
 text-decoration: none;
-font-variant: small-caps;
+font-variant: small-caps;и
 
 color: #FFFFFF;
 }
